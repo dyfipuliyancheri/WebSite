@@ -9,23 +9,13 @@
     <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
     <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
     <link href="lib/animate/animate.min.css" rel="stylesheet" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css"
-    />
-    <link href="lib/toastr/toastr.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="/lib/photoswipe/photoswipe.css" />
-    <link
-      rel="stylesheet"
-      href="/lib/photoswipe/default-skin/default-skin.css"
-    />
-    <title>SampleCompany</title>
+    <title>Stackatech</title>
   </head>
-  <body class="contact">
+  <body class="dev-cycle">
     <nav class="navbar navbar-b navbar-trans navbar-expand-md" id="mainNav">
       <div class="container">
         <a class="navbar-brand js-scroll" href="/"
-          ><img src="/images/logo.svg" alt="SampleCompany"
+          ><img src="/images/logo.svg" alt="Stackatech"
         /></a>
         <input
           class="navbar-toggler collapsed"
@@ -44,7 +34,7 @@
         >
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link js-scroll" href="/">Home</a>
+              <a class="nav-link js-scroll active" href="/">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll" href="/clients-and-projects.html"
@@ -52,9 +42,7 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll active" href="/gallery.html"
-                >Gallery</a
-              >
+              <a class="nav-link js-scroll" href="/gallery.html">Gallery</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll" href="/contact.html">Contact</a>
@@ -63,79 +51,66 @@
         </div>
       </div>
     </nav>
-
-    <!-- Gallery -->
-
-    <div class="container my-5">
-      <div
-        class="my-gallery justify-content-center"
-        itemscope
-        itemtype="http://schema.org/ImageGallery"
-      ></div>
-    </div>
-    <!-- Root element of PhotoSwipe. Must have class pswp. -->
-    <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
-      <!-- Background of PhotoSwipe. 
-         It's a separate element as animating opacity is faster than rgba(). -->
-      <div class="pswp__bg"></div>
-
-      <!-- Slides wrapper with overflow:hidden. -->
-      <div class="pswp__scroll-wrap">
-        <!-- Container that holds slides. 
-            PhotoSwipe keeps only 3 of them in the DOM to save memory.
-            Don't modify these 3 pswp__item elements, data is added later on. -->
-        <div class="pswp__container">
-          <div class="pswp__item"></div>
-          <div class="pswp__item"></div>
-          <div class="pswp__item"></div>
+    <div class="container main mt-5">
+      <div class="content">
+        <h1 class="quote">Our Development</h1>
+        <div class="content-sub">
+          <p class="info">
+            Promisingly your website deserves the best as it is the only
+            internet identity of you and your concern. Your website may earn you
+            more fame and customers. So don’t delay build a brand standard and
+            unique website with Stackatech
+          </p>
         </div>
-        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
-        <div class="pswp__ui pswp__ui--hidden">
-          <div class="pswp__top-bar">
-            <!--  Controls are self-explanatory. Order can be changed. -->
-            <div class="pswp__counter"></div>
-            <button
-              class="pswp__button pswp__button--close"
-              title="Close (Esc)"
-            ></button>
-            <button
-              class="pswp__button pswp__button--fs"
-              title="Toggle fullscreen"
-            ></button>
-
-            <button
-              class="pswp__button pswp__button--zoom"
-              title="Zoom in/out"
-            ></button>
-            <!-- Preloader demo https://codepen.io/dimsemenov/pen/yyBWoR -->
-            <!-- element will get class pswp__preloader--active when preloader is running -->
-            <div class="pswp__preloader">
-              <div class="pswp__preloader__icn">
-                <div class="pswp__preloader__cut">
-                  <div class="pswp__preloader__donut"></div>
-                </div>
-              </div>
-            </div>
+      </div>
+      <img
+        class="dev-image dev-image-desktop"
+        src="/images/cycle_desktop.svg"
+      />
+      <img class="dev-image dev-image-mobile" src="/images/cycle-mobile.svg" />
+    </div>
+    <div class="container-fluid tech-stack">
+      <div class="container py-5">
+        <h2 class="text-center mb-4">Technology Stacks</h2>
+        <div class="row">
+          <div class="col-3 text-center">
+            <img src="/images/stacks/next-js.svg" alt="Next.js" />
           </div>
-          <div
-            class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap"
-          >
-            <div class="pswp__share-tooltip"></div>
+          <div class="col-3 text-center">
+            <img src="/images/stacks/react.png" alt="React" />
           </div>
-          <button
-            class="pswp__button pswp__button--arrow--left"
-            title="Previous (arrow left)"
-          ></button>
-          <button
-            class="pswp__button pswp__button--arrow--right"
-            title="Next (arrow right)"
-          ></button>
-          <div class="pswp__caption">
-            <div class="pswp__caption__center"></div>
+          <div class="col-3 text-center">
+            <img src="/images/stacks/firebase.png" alt="Firebase" />
+          </div>
+          <div class="col-3 text-center">
+            <img src="/images/stacks/php.png" alt="PHP" />
+          </div>
+          <div class="col-3 text-center">
+            <img src="/images/stacks/scss.svg" alt="SCSS" />
+          </div>
+          <div class="col-3 text-center">
+            <img src="/images/stacks/mysql.png" alt="MySQL" />
+          </div>
+          <div class="col-3 text-center">
+            <img src="/images/stacks/html_css.png" alt="HTML - CSS" />
+          </div>
+          <div class="col-3 text-center">
+            <img src="/images/stacks/git.svg" alt="Git" />
+          </div>
+          <div class="col-3 text-center">
+            <img src="/images/stacks/js.png" alt="JavaScript" />
+          </div>
+          <div class="col-3 text-center">
+            <img src="/images/stacks/mongodb.png" alt="Mongodb" />
+          </div>
+          <div class="col-3 text-center">
+            <img src="/images/stacks/nodejs.png" alt="Node.js" />
           </div>
         </div>
       </div>
     </div>
+
+    <!-- Footer -->
 
     <footer>
       <div class="container">
@@ -143,10 +118,10 @@
           <div class="col-md-4">
             <div class="footer-items">
               <a class="footer-brand js-scroll" href="/"
-                ><img src="/images/logo.svg" alt="SampleCompany"
+                ><img src="/images/logo.svg" alt="Stackatech"
               /></a>
               <p class="address mt-3">
-                <b>SampleCompany Info Labs Pvt Ltd.</b><br />Mobile 10X Building
+                <b>Stackatech Info Labs Pvt Ltd.</b><br />Mobile 10X Building
                 28/1650D Govt.Cyberpark, Kerala 673016
               </p>
               <a href="tel:+919645305870">(+91)9645305870</a> <br />
@@ -156,20 +131,18 @@
           <div class="col-md-3">
             <div class="footer-items">
               <h2>Links</h2>
-              <ul class="footer-link mt-3">
-                <li>
-                  <a href="/our-development.html">Our Development</a>
-                </li>
-                <li>
-                  <a href="/clients-and-projects.html">Clients and Project</a>
-                </li>
-                <li>
-                  <a href="/gallery.html">Gallery</a>
-                </li>
-                <li>
-                  <a href="/contact.html">Contact</a>
-                </li>
-              </ul>
+              <li>
+                <a href="/our-development.html">Our Development</a>
+              </li>
+              <li>
+                <a href="/clients-and-projects.html">Clients and Project</a>
+              </li>
+              <li>
+                <a href="/gallery.html">Gallery</a>
+              </li>
+              <li>
+                <a href="/contact.html">Contact</a>
+              </li>
             </div>
           </div>
           <div class="col-md-5">
@@ -192,7 +165,7 @@
               <ul class="social-links mt-3">
                 <li>
                   <a
-                    href="https://www.facebook.com/SampleCompany/"
+                    href="https://www.facebook.com/stackatech/"
                     target="_blank"
                     rel="noopener noreferrer"
                     ><i class="fa fa-facebook-square"></i
@@ -200,7 +173,7 @@
                 </li>
                 <li>
                   <a
-                    href="https://twitter.com/SampleCompany"
+                    href="https://twitter.com/StackaTech"
                     target="_blank"
                     rel="noopener noreferrer"
                     ><i class="fa fa-twitter-square"></i
@@ -208,7 +181,7 @@
                 </li>
                 <li>
                   <a
-                    href="https://www.instagram.com/SampleCompany/"
+                    href="https://www.instagram.com/stackatech/"
                     target="_blank"
                     rel="noopener noreferrer"
                     ><i class="fa fa-instagram"></i
@@ -216,7 +189,7 @@
                 </li>
                 <li>
                   <a
-                    href="https://www.linkedin.com/company/SampleCompany/"
+                    href="https://www.linkedin.com/company/stackatech/"
                     target="_blank"
                     rel="noopener noreferrer"
                     ><i class="fa fa-linkedin-square"></i
@@ -228,11 +201,12 @@
         </div>
       </div>
     </footer>
-    <div class="aside contact-aside">
+
+    <div class="aside">
       <ul class="social-links">
         <li>
           <a
-            href="https://www.facebook.com/SampleCompany/"
+            href="https://www.facebook.com/stackatech/"
             target="_blank"
             rel="noopener noreferrer"
             ><i class="fa fa-facebook-square"></i
@@ -240,7 +214,7 @@
         </li>
         <li>
           <a
-            href="https://twitter.com/SampleCompany"
+            href="https://twitter.com/StackaTech"
             target="_blank"
             rel="noopener noreferrer"
             ><i class="fa fa-twitter-square"></i
@@ -248,7 +222,7 @@
         </li>
         <li>
           <a
-            href="https://www.instagram.com/SampleCompany/"
+            href="https://www.instagram.com/stackatech/"
             target="_blank"
             rel="noopener noreferrer"
             ><i class="fa fa-instagram"></i
@@ -256,7 +230,7 @@
         </li>
         <li>
           <a
-            href="https://www.linkedin.com/company/SampleCompany/"
+            href="https://www.linkedin.com/company/stackatech/"
             target="_blank"
             rel="noopener noreferrer"
             ><i class="fa fa-linkedin-square"></i
@@ -264,16 +238,10 @@
         </li>
       </ul>
     </div>
-
     <script src="lib/jquery/jquery.min.js"></script>
     <script src="lib/jquery/jquery-migrate.min.js"></script>
     <script src="lib/bootstrap/js/bootstrap.min.js"></script>
     <script src="lib/typed/typed.min.js"></script>
     <script src="js/main.js"></script>
-    <script src="lib/toastr/toastr.min.js"></script>
-    <script src="/lib/photoswipe/photoswipe.min.js"></script>
-    <script src="/lib/photoswipe/photoswipe-ui-default.min.js"></script>
-    <script src="/js/main.js"></script>
-    <script src="/js/gallery.js"></script>
   </body>
 </html>
