@@ -3,8 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#ff0000" />
+    <meta name="msapplication-TileColor" content="#b91d47" />
+    <meta name="theme-color" content="#ffffff" />
     <link rel="stylesheet" href="css/main.min.css" />
     <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
     <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
@@ -13,17 +18,17 @@
     <script>
       new WOW().init();
       // Smoth scrolling unsupported browsers
-      $(document).ready(function() {
-        $("a").on("click", function(event) {
+      $(document).ready(function () {
+        $("a").on("click", function (event) {
           if (this.hash !== "") {
             event.preventDefault();
             var hash = this.hash;
             $("html, body").animate(
               {
-                scrollTop: $(hash).offset().top
+                scrollTop: $(hash).offset().top,
               },
               800,
-              function() {
+              function () {
                 window.location.hash = hash;
               }
             );
@@ -38,7 +43,7 @@
     <nav
       class="navbar navbar-b navbar-trans navbar-expand-md container-fluid"
       id="mainNav"
-      style="position: fixed;z-index: 1000;"
+      style="position: fixed; z-index: 1000"
     >
       <div class="container">
         <a class="navbar-brand js-scroll" href="/"
@@ -83,7 +88,7 @@
       <div
         data-aos="fade-up"
         class="d-flex justify-content-between flex-column"
-        style="height: 100vh;"
+        style="height: 100vh"
       >
         <div class="content container">
           <div class="wid-70">
@@ -107,7 +112,7 @@
       >
         <div
           class="col-lg-5 d-flex content-img"
-          style="padding-left: 0px;padding-right: 0px;"
+          style="padding-left: 0px; padding-right: 0px"
         >
           <div class="number-1">
             <img src="/images/01.svg" alt="why-alt" />
@@ -135,7 +140,7 @@
       >
         <div
           class="col-lg-5 d-flex content-img"
-          style="padding-left: 0px;padding-right: 0px;"
+          style="padding-left: 0px; padding-right: 0px"
         >
           <div class="number-1">
             <img src="/images/02.svg" alt="why-alt" />
@@ -162,7 +167,7 @@
       >
         <div
           class="col-lg-5 d-flex content-img"
-          style="padding-left: 0px;padding-right: 0px;"
+          style="padding-left: 0px; padding-right: 0px"
         >
           <div class="number-1">
             <img src="/images/03.svg" alt="why-alt" />
@@ -185,7 +190,14 @@
     <section class="three">
       <div
         data-aos="fade-up"
-        class="container-fluid row d-flex flex-row justify-content-around content-outer"
+        class="
+          container-fluid
+          row
+          d-flex
+          flex-row
+          justify-content-around
+          content-outer
+        "
       >
         <div class="col-md-6 d-flex justify-content-center flex-column">
           <h1>We Are Experts In App Development</h1>
@@ -196,12 +208,12 @@
         </div>
         <div class="col-md-4 d-flex justify-content-center flex-column">
           <p>
-            We SampleCompany providing technical solutions through our good quality
-            products and services to a wide range of clients especially for
-            start-ups to cope up with the current market trends. We provide you
-            a wide range of products the list includes UI/UX designs, websites,
-            blockchain development, digital marketing, ai products, virtual
-            reality and augmented reality products and services includes
+            We SampleCompany providing technical solutions through our good
+            quality products and services to a wide range of clients especially
+            for start-ups to cope up with the current market trends. We provide
+            you a wide range of products the list includes UI/UX designs,
+            websites, blockchain development, digital marketing, ai products,
+            virtual reality and augmented reality products and services includes
             marketing research, business modeling, online marketing, and the
             list continues.
           </p>
